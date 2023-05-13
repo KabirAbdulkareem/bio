@@ -11,16 +11,25 @@ body {
 }
 
 p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+/* p {
   font-size: 24px;
   line-height: 1.5;
   margin-bottom: 16px;
-}
+} */
 .container {
   padding: 16px;
 }
 
 .header {
   background-color: black;
+}
+
+.header_title {
+  font-size: 24px;
   color: white;
 }
 
@@ -42,7 +51,7 @@ p {
 }
 
 .bio_detail {
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 .bio_detail_title {
@@ -50,9 +59,14 @@ p {
 }
 
 .button {
+  padding: 4px 8px;
+  font-size: 20px;
+}
+
+/* .button {
   padding: 8px 16px;
   font-size: 24px;
-}
+} */
 
 .update {
   background-color: #c1c1c1;
@@ -64,6 +78,18 @@ p {
 /* Tablet */
 
 @media (min-width: 480px) {
+  p {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .header_title {
+    font-size: 32px;
+  }
+
+  .bio_detail {
+    margin-top: 48px;
+  }
+
   .bio_pic_bg {
     height: 200px;
   }
@@ -73,6 +99,11 @@ p {
     height: 200px;
     border: 8px solid white;
     top: 56px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 24px;
   }
 }
 
